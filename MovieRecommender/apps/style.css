@@ -1,0 +1,25 @@
+/* Apply custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body, [class*="st"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fdfdfd;
+    background-color: #02040b;
+
+}
+
+/* Style the "Recommend" button */
+.recommend-button {
+    margin-top: 1rem;
+}
+
+.recommend-button button {
+    background-color: #457b9d; /* Button background color */
+    color: #fdfdfd; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
